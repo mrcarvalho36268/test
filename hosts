@@ -1,0 +1,12 @@
+
+[all:vars]
+ansible_user=admin
+ansible_password=cisco
+ansible_network_os=ios
+ansible_connection=network_cli
+
+[lab]
+rtr-1 ansible_host=10.255.8.101
+rtr-2 ansible_host=10.255.8.102
+rtr-3 ansible_host=10.255.8.103
+rtr-4 ansible_host=10.255.8.104
